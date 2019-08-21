@@ -1,4 +1,4 @@
-#this code will be used for jenkins testing only 
+#this code will be used for jenkins testing only, first change and 2nd change 
 #declare the provider...
 provider "aws" {
   region                  = "us-east-1"
