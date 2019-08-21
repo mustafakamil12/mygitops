@@ -5,4 +5,15 @@ provider "aws" {
 
 }
 
+#create the VPC
+resource "aws_vpc" "ProdVPC" {
+  cidr_block       = "192.168.0.0/19"
+  instance_tenancy = "default"
+
+  tags = {
+    Name = "ProdVPC"
+  }
+   
+}
+
 
